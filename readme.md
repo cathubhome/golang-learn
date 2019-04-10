@@ -1,0 +1,13 @@
+iota-常量计数器  
+array-数组  
+slice-切片  
+map-字典  
+switch-分支判断
+forcircle-for循环  
+function-函数&&闭包函数  
+recursiveFunction-递归函数(博菲拉切数列)  
+exceptionHanding-异常处理(defer/panic/recover)  
+pointer-指针  
+struct-结构体  
+interface-接口  
+concurrentComputation,channelSelect（备受青睐的特性）  

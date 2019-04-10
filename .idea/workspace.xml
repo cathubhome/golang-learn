@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e8628c8-8615-45b4-af08-561e681a16e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/goProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/channelBufffer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/channelSelect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/concurrentComputation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/exceptionHanding.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/forcircle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/interface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/iota.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/pointer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/recursiveFunction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/slice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/struct.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/easylearn/switch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/examplelearn/Base64.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/examplelearn/callbackFunction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/examplelearn/defer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/examplelearn/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/examplelearn/net.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/examplelearn/sliceSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/examplelearn/stringFormatting.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/examplelearn/strings.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/math/math.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com.golang/math/math_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>make</find>
+      <find>·</find>
+      <find>p</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>fmt.println</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="D:/Development/golang/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/easylearn/recursiveFunction.go" />
+        <option value="$PROJECT_DIR$/easylearn/exceptionHanding.go" />
+        <option value="$PROJECT_DIR$/easylearn/pointer.go" />
+        <option value="$PROJECT_DIR$/easylearn/struct.go" />
+        <option value="$PROJECT_DIR$/easylearn/interface.go" />
+        <option value="$PROJECT_DIR$/easylearn/channel_1.go" />
+        <option value="$PROJECT_DIR$/easylearn/select.go" />
+        <option value="$PROJECT_DIR$/easylearn/select1.go" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/channelBufffer.go" />
+        <option value="$PROJECT_DIR$/easylearn/concurrentComputation.go" />
+        <option value="$PROJECT_DIR$/easylearn/test.go" />
+        <option value="$PROJECT_DIR$/src/com/paic/math.go" />
+        <option value="$PROJECT_DIR$/src/com/paic/mathTest.go" />
+        <option value="$PROJECT_DIR$/src/main/build.bat" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/array.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/channelBufffer.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/channelSelect.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/concurrentComputation.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/exceptionHanding.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/forcircle.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/function.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/interface.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/iota.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/map.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/pointer.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/recursiveFunction.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/slice.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/struct.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/easylearn/switch.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/math/math_test.go" />
+        <option value="$PROJECT_DIR$/src/main/com.paic/math/math_test.go" />
+        <option value="$PROJECT_DIR$/src/main/com.paic/examplelearn/json.go" />
+        <option value="$PROJECT_DIR$/src/main/com.paic/easylearn/switch.go" />
+        <option value="$PROJECT_DIR$/src/main/com.paic/examplelearn/sliceSort.go" />
+        <option value="$PROJECT_DIR$/src/main/com.paic/math/math.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/string/appenf.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/math/math.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/test/b.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/test/c.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/test/a.go" />
+        <option value="$PROJECT_DIR$/src/main/main.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/examplelearn/json.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/examplelearn/sliceSort.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/examplelearn/Base64.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/examplelearn/defer.go" />
+        <option value="D:/Development/golang/go/src/errors/callbackFunction.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/examplelearn/callbackFunction.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/examplelearn/strings.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/examplelearn/stringFormatting.go" />
+        <option value="$PROJECT_DIR$/src/com.paic/examplelearn/net.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goProject" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com.golang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com.golang" type="462c0819:PsiDirectoryNode" />
+              <item name="easylearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com.golang" type="462c0819:PsiDirectoryNode" />
+              <item name="examplelearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com.golang" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\娱乐\learning\goProject\src" />
+      <recent name="E:\娱乐\learning\goProject\src\main\com.paic" />
+      <recent name="E:\娱乐\learning\goProject\src\main" />
+      <recent name="E:\娱乐\learning\goProject\src\com.paic\math" />
+      <recent name="E:\娱乐\learning\goProject\src\com.paic\easylearn" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build net.go">
+    <configuration name="go build callbackFunction.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/com.paic/examplelearn/callbackFunction.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/com.paic/examplelearn/defer.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build net.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/com.paic/examplelearn/net.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build stringFormatting.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/com.paic/examplelearn/stringFormatting.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build strings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/com.paic/examplelearn/strings.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build net.go" />
+        <item itemvalue="Go Build.go build stringFormatting.go" />
+        <item itemvalue="Go Build.go build strings.go" />
+        <item itemvalue="Go Build.go build callbackFunction.go" />
+        <item itemvalue="Go Build.go build defer.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestAdd_in_com_paic_math - 2019.04.07 at 22h 17m 53s.xml">
+      <configuration name="TestAdd in com.paic/math" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43600866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37527114" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43600866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37527114" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286334" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="golang basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="golang basics" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chapter2/pkg.go" />
+    <entry file="file://D:/Development/golang/go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="273" column="5" selection-start-line="273" selection-start-column="5" selection-end-line="273" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/runtime/string.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="272" column="7" lean-forward="true" selection-start-line="272" selection-start-column="7" selection-end-line="272" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="129" column="39" lean-forward="true" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/build.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/channelBufffer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/channelSelect.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/concurrentComputation.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/forcircle.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/function.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/interface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/iota.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/recursiveFunction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/slice.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/pointer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/encoding/json/decode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/sort/sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="268" column="5" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/time/format.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1959">
+          <caret line="781" column="5" selection-start-line="781" selection-start-column="5" selection-end-line="781" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/switch.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#14#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/struct.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.paic/string/appenf.go" />
+    <entry file="file://$PROJECT_DIR$/src/com.paic/test/c.go" />
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" selection-start-line="12" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/math/math_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-277">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/math/math.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.paic/test/a.go" />
+    <entry file="file://$PROJECT_DIR$/src/com.paic/test/b.go" />
+    <entry file="file://$PROJECT_DIR$/src/main/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/examplelearn/json.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#14#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/examplelearn/sliceSort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/examplelearn/Base64.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/easylearn/exceptionHanding.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/sync/atomic/value.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/internal/testlog/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/os/stat.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/errors/errors.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="518" selection-start-line="518" selection-end-line="518" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/examplelearn/defer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/errors/errors_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/errors/callbackFunction.go" />
+    <entry file="file://$PROJECT_DIR$/src/com.golang/examplelearn/stringFormatting.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/net/dial.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="688" column="20" selection-start-line="688" selection-start-column="14" selection-end-line="688" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Development/golang/go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="3036" column="32" selection-start-line="3036" selection-start-column="18" selection-end-line="3036" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/examplelearn/strings.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/examplelearn/callbackFunction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com.golang/examplelearn/net.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

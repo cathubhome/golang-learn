@@ -13,6 +13,11 @@ type Rect struct {
 	length, width float64
 }
 
+type ColorRect struct {
+	Rect  //匿名字段（嵌入字段）,默认colorRect就拥有了rect的所有字段
+	color string
+}
+
 //计算矩形面积
 func calculateRectArea(rect Rect) float64 {
 	return rect.length * rect.width
@@ -67,5 +72,8 @@ func main() {
 		"Area:", rectangle.areaPtr())
 	fmt.Println("final address:", *rectangle)
 	fmt.Println()
+
+	colorRect := ColorRect{Rect: Rect{width: 1, length: 1}, color: "red"}
+	fmt.Println("length:", colorRect.length, "width:", colorRect.length, "color:", colorRect.color)
 
 }

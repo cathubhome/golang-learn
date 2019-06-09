@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 /**
 数组说明：相同数据类型的元素组成的固定长度的有序集合

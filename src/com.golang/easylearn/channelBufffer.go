@@ -15,6 +15,7 @@ import (
 func main() {
 
 	var c = make(chan string, 20)
+	fmt.Println(len(c))
 	go shooting(c)
 	go count(c)
 	var input string

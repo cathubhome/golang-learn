@@ -11,7 +11,7 @@ func main() {
 
 	//方式1：只指定长度，这个时候切片的长度和容量是相同的
 	x := make([]float64, 5)
-	//方式2：同时指定切片长度和容量，如果定义时length>capacity.但是赋值的时候要注意最大的索引仍然是len(y)－1，否则程序执行时会报错
+	//方式2：同时指定切片长度和容量，特别注意的是如果定义时length>capacity.但是赋值的时候要注意最大的索引仍然是len(y)－1，否则程序执行时会报错
 	y := make([]float64, 5, 10)
 	fmt.Println("Capcity:", cap(x), "Length:", len(x))
 	fmt.Println("Capcity:", cap(y), "Length:", len(y))

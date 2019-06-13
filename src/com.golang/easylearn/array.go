@@ -6,6 +6,8 @@ import (
 
 /**
 数组说明：相同数据类型的元素组成的固定长度的有序集合
+tips:长度是数组的一部分、对于[1]int 与 [2]int是不同的类型
+
 */
 func main() {
 
@@ -14,6 +16,9 @@ func main() {
 	var x [3]int //显式定义了数组的长度,同var x [3]int{}
 	x[0] = 2
 	x[1] = 3
+
+	fmt.Println("x:", x)
+
 	var sum int
 	//range函数可以用在数组，切片和字典上面。当range来遍历数组的时候返回数组的索引和元素值,这里是对元素求和，并不关心索引，在go中当你对一个函数的返回值不感兴趣时使用下划线（_）替代
 	// 另外如果定义了索引（将下划线替换成变量i），却在循环中没有用到索引，这时go在编译时会报错
@@ -27,7 +32,8 @@ func main() {
 	fmt.Println(sum)
 
 	//第二种方式：使用...代替数组长度，go会自动推断数组长度，不过这种定义方式必须有初始化的值
-	//两种定义方法如下
+	//
+	// 两种定义方法如下
 	//var y = [...]string{
 	//	"Monday",
 	//	"Tuesday",
@@ -45,8 +51,19 @@ func main() {
 		"Saturday",
 		"Sunday",
 	}
-	for _, elem := range y {
-		println(elem)
+
+	fmt.Println("y", y)
+
+	for i := 0; i < len(y); i++ {
+		println(y[i])
 	}
 
+	//
+	modify(&x)
+	fmt.Println("after modify:", x)
+
+}
+
+func modify(arr *[3]int) {
+	(*arr)[0] = 1
 }

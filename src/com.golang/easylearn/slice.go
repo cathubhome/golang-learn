@@ -5,7 +5,7 @@ import (
 )
 
 /**
-切片：可以理解成可变长度的数组,严格的说切片有容量与长度两个属性
+切片：可以理解成可变长度的数组,严格的说切片有容量与长度两个属性；切片是数组的一个引用，因此切片是引用类型
 */
 func main() {
 
@@ -13,8 +13,8 @@ func main() {
 	x := make([]float64, 5)
 	//方式2：同时指定切片长度和容量，特别注意的是如果定义时length>capacity.但是赋值的时候要注意最大的索引仍然是len(y)－1，否则程序执行时会报错
 	y := make([]float64, 5, 10)
-	fmt.Println("Capcity:", cap(x), "Length:", len(x))
-	fmt.Println("Capcity:", cap(y), "Length:", len(y))
+	fmt.Println("Length:", len(x), "Capacity:", cap(x))
+	fmt.Println("Length:", len(y), "Capacity:", cap(y))
 
 	for i := 0; i < len(x); i++ {
 		x[i] = float64(i)
@@ -45,4 +45,5 @@ func main() {
 	copy(y, x)
 	fmt.Println("Capcity:", cap(y), "Length:", len(y))
 	fmt.Println(y)
+
 }

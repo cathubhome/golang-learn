@@ -13,6 +13,17 @@ var p = fmt.Println
 字符串的拼接这种常见情景自然少不了，附带字符串拼接的几种方法的性能分析结果： http://herman.asia/efficient-string-concatenation-in-go
 */
 func main() {
+
+	//string的底层就是一个byte数组，因此，可以进行切片操作
+	str := "hello world"
+	fmt.Println("str[0:1]", str[0:1])
+
+	//如何改变string中的字符值，string本身是不可变的，如果要改变string的值可以如下操作
+	strByte := []byte(str)
+	strByte[0] = 'H'
+	str = string(strByte)
+	fmt.Println("after change,str:", str)
+
 	//判断是否含有指定字符串
 	p("Contains:  ", s.Contains("test", "es"))
 	//判断字符串的出现次数

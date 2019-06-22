@@ -4,7 +4,9 @@ import "fmt"
 
 /**
 结构体：Go提供的结构体就是把使用各种数据类型定义的不同变量组合起来的高级数据类型
-		Go使用结构体组合函数的方式来为结构体定义结构体方法
+		struct的内存布局：struct的所有字段在内存中是连续的
+		结构体是用户单独定义的类型,不能与其他的类型进行强制转换
+		struct没有构造函数,一般可以使用工厂模式来解决这个问题
 */
 
 //type关键字（表示要定义一个新的数据类型)+ 结构体名称 + struct关键字
@@ -44,7 +46,15 @@ func (rect *Rect) areaPtr() float64 {
 	return rect.width * rect.length
 }
 
+/**
+工厂模式
+*/
+func newRect(length float64, width float64) *Rect {
+	return &Rect{length: length, width: width}
+}
+
 func main() {
+
 	//按照结构体成员定义的顺序来赋值
 	rect := Rect{5, 3.0}
 	//如下使用 key:value的方式赋值
@@ -53,6 +63,8 @@ func main() {
 	//var rect Rect
 	//rect.length = 2.5
 	//rect.width = 3.0
+	fmt.Println(&rect.length)
+	fmt.Println(&rect.width)
 	fmt.Println("rect area:", calculateRectArea(rect))
 	fmt.Println()
 
@@ -75,5 +87,9 @@ func main() {
 
 	colorRect := ColorRect{Rect: Rect{width: 1, length: 1}, color: "red"}
 	fmt.Println("length:", colorRect.length, "width:", colorRect.length, "color:", colorRect.color)
+
+	//工厂模式
+	rectModel := newRect(1, 1)
+	fmt.Println(*rectModel)
 
 }

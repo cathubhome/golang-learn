@@ -24,6 +24,7 @@ func main() {
 	http.HandleFunc("/", index)
 	http.HandleFunc("/login", login)
 	http.HandleFunc("/upload", upload)
+	http.HandleFunc("/dealPanic", logPainc(dealPanic))
 	//设置监听的端口与处理请求和生成返回信息的处理逻辑
 	err := http.ListenAndServe(":9090", nil)
 	if err != nil {
@@ -45,7 +46,8 @@ func index(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("val:", strings.Join(v, ""))
 	}
 	//输出到客户端信息
-	fmt.Fprintf(w, "welcome to paic!")
+	//fmt.Fprintf(w, "welcome to paic!")
+	io.WriteString(w, "welcome to paic!")
 }
 
 func login(w http.ResponseWriter, r *http.Request) {
@@ -120,5 +122,24 @@ func upload(w http.ResponseWriter, r *http.Request) {
 		}
 		defer f.Close()
 		io.Copy(f, file)
+	}
+}
+
+//处理panic
+func dealPanic(w http.ResponseWriter, r *http.Request) {
+	//模拟程序错误
+	panic("接收的参数不合法")
+}
+
+//封装处理panic的函数
+func logPainc(handler http.HandlerFunc) http.HandlerFunc {
+	return func(writer http.ResponseWriter, request *http.Request) {
+		defer func() {
+			if pr := recover(); pr != nil {
+				fmt.Fprint(writer, pr)
+				log.Printf("[%v] caught panic:%v", request.RemoteAddr, pr)
+			}
+		}()
+		handler(writer, request)
 	}
 }

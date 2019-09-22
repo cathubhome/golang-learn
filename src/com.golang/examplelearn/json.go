@@ -7,6 +7,8 @@ import (
 
 /**
 go内置对json的支持:使用两个结构体来演示自定义数据类型的JSON数据编码和解码
+序列化：json.Marshal(data interface{})
+反序列化：json.Unmarshal(data []byte,v interface{})
 */
 
 type Response1 struct {

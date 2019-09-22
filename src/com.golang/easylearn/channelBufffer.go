@@ -7,6 +7,9 @@ import (
 )
 
 /**
+channel的概念：channel类似于unix中的管道;FIFO;线程安全,多个goroutine同时访问不需要加锁;channel是有类型的
+channel的声明：var 变量名 chan 类型
+channel的初始化：变量 = make(chan 类型,长度)
 通道缓冲区:
 在定义chan变量的时候，还可以指定它的缓冲区大小
 一般我们定义的channel都是同步的，也就是说接受端和发送端彼此等待对方ok才开始

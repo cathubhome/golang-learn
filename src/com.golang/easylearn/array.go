@@ -58,7 +58,6 @@ func main() {
 		println(y[i])
 	}
 
-	//
 	modify(&x)
 	fmt.Println("after modify:", x)
 

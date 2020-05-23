@@ -7,7 +7,7 @@ import (
 )
 
 /**
-channel的概念：channel类似于unix中的管道;FIFO;线程安全,多个goroutine同时访问不需要加锁;channel是有类型的
+channel的概念：channel类似于unix中的管道;FIFO先进先出的队列;线程安全,多个goroutine同时访问不需要加锁;channel是有类型的
 channel的声明：var 变量名 chan 类型
 channel的初始化：变量 = make(chan 类型,长度)
 通道缓冲区:

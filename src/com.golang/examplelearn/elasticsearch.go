@@ -22,19 +22,20 @@ func main() {
 	}
 
 	fmt.Println("connect elasticserch success")
-
 	tweet := Tweet{User: "olivere", Message: "Take Five"}
-	_, err = client.Index().
-		Index("twitter").
-		Type("tweet").
-		Id("1").
-		BodyJson(tweet).
-		Do()
-	if err != nil {
-		panic(err)
-		return
-	}
 
-	fmt.Println("insert success")
+	for i := 1; i <= 10; i++ {
+		_, err = client.Index().
+			Index("twitter").
+			Type("tweet").
+			Id(fmt.Sprintf("%d", i)).
+			BodyJson(tweet).
+			Do()
+		if err != nil {
+			panic(err)
+			return
+			fmt.Sprintf("insert %d success", i)
+		}
+	}
 
 }

@@ -34,12 +34,12 @@ func main() {
 	lock.Lock()
 	// To store the keys in slice in sorted order
 	var keys []int
-	for k, s_ := range resultMap {
+	for k, _ := range resultMap {
 		keys = append(keys, k)
 	}
 	sort.Ints(keys)
 
-	// To perform the opertion you want
+	// To perform the operation you want
 	for _, k := range keys {
 		fmt.Printf("%d! = %v\n", k, resultMap[k])
 	}
